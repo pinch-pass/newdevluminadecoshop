@@ -1,0 +1,59 @@
+[
+    {
+        "name": "bukashk0zzz/yml-generator",
+        "version": "1.11.0",
+        "version_normalized": "1.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Bukashk0zzz/YmlGenerator.git",
+            "reference": "517bde47b989aef3edd5640aeb90bf012eef1e81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Bukashk0zzz/YmlGenerator/zipball/517bde47b989aef3edd5640aeb90bf012eef1e81",
+            "reference": "517bde47b989aef3edd5640aeb90bf012eef1e81",
+            "shasum": ""
+        },
+        "require": {
+            "ext-simplexml": "*",
+            "ext-xmlwriter": "*",
+            "php": ">=5.6.1"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+            "escapestudios/symfony2-coding-standard": "^3.0",
+            "ext-dom": "*",
+            "friendsofphp/php-cs-fixer": "^2.3",
+            "fzaninotto/faker": "^1.6",
+            "phpcompatibility/php-compatibility": "^9.0",
+            "phpunit/phpunit": "^5.0"
+        },
+        "time": "2019-12-04T09:01:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Bukashk0zzz\\YmlGenerator\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Denis Golubovskiy",
+                "email": "bukashk0zzz@gmail.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "YML (Yandex Market Language) file generator",
+        "homepage": "https://github.com/Bukashk0zzz/YmlGenerator",
+        "keywords": [
+            "market",
+            "yandex",
+            "yml",
+            "yml-generator"
+        ]
+    }
+]

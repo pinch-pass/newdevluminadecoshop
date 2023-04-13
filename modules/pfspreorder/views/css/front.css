@@ -1,0 +1,584 @@
+/**
+* 2007-2019 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2019 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+.product__need-sizes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.product__need-sizes p {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    width: 100%;
+    margin: 23px 0 17px;
+    font: normal 16px/1.4 Montserrat,Arial,sans-serif;
+    color: #a9a9a9
+}
+
+.product__need-sizes a {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    display: block;
+    width: calc(50% - 20px);
+    min-width: 240px;
+    padding: 18px 10px;
+    font: 300 16px/1.4 Montserrat,Arial,sans-serif;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out
+}
+
+.product__need-sizes a:active,.product__need-sizes a:focus,.product__need-sizes a:hover {
+    color: #fff;
+    background: #000
+}
+
+.product__modal {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    max-width: 570px;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 5795;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+}
+
+@media (max-width: 1199px) {
+
+
+
+
+    .product__info {
+        width: 50%;
+        padding-left: 30px
+    }
+
+    .product__need-sizes a {
+        width: 100%;
+        margin-bottom: 15px
+    }
+
+    .product__modal {
+        max-width: calc(100% - 30px)
+    }
+}
+.sew-by-order, .sew-by-order-utp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px
+}
+
+.sew-by-order__image {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    width: calc(50% - 20px)
+}
+
+.sew-by-order__image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+.sew-by-order__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+
+.sew-by-order__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #202020;
+}
+
+.sew-by-order__desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+}
+
+.sew-by-order__label {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+
+.sew-by-order__label span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+    padding-bottom: 8px;
+}
+.sew-by-order__label span span {
+    color: red;
+
+}
+.sew-by-order__label--50 {
+    width: calc(50% - 18px)
+}
+
+.sew-by-order__label--100 {
+    width: 100%
+}
+
+.sew-by-order__input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 40px 0 20px!important;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9A9A9A;
+    border: 1px solid #E4E4E4;
+    border-radius: 4px;
+    background: #fff;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+.sew-by-order__input.success {
+    background: #fff url(../img/check-mark.svg) no-repeat calc(100% - 10px) 50%/11px
+}
+
+.sew-by-order__input.error {
+    border-color: #e13e3e;
+    background: #fff url(../img/close-cross.svg) no-repeat calc(100% - 10px) 50%/11px
+}
+
+.sew-by-order__input.error:focus {
+    border-color: #e13e3e
+}
+
+.sew-by-order__input:focus {
+    border-color: #a9a9a9
+}
+
+.sew-by-order__select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px!important;
+    margin-bottom: 35px;
+    font: 300 16px/1.4 Montserrat,Arial,sans-serif;
+    color: #a9a9a9;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    outline: none;
+    -webkit-transition: .3s linear;
+    transition: .3s linear
+}
+
+.sew-by-order__select:focus {
+    border-color: #a9a9a9
+}
+
+.sew-by-order__warning {
+    font: 400 12px/1.5 Montserrat,Arial,sans-serif;
+    color: #e13e3e
+}
+
+.sew-by-order__textarea {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 40px 10px 20px;
+    margin-bottom: 35px;
+    font: 300 16px/1.4 Montserrat,Arial,sans-serif;
+    color: #a9a9a9;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    outline: none;
+    -webkit-transition: .3s linear;
+    transition: .3s linear
+}
+
+.sew-by-order__textarea:focus {
+    border-color: #a9a9a9
+}
+
+.sew-by-order__button {
+    width: 100%;
+    max-width: 146px;
+    padding: 15px 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    background: #951BC4;
+    border-radius: 4px;
+    -webkit-transition: .3s linear;
+    transition: .3s linear
+}
+form#form-2 {
+    display: flex;
+}
+
+.sew-by-callback__input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px 0 20px!important;
+    font: 300 16px/18px Montserrat,Arial,sans-serif;
+    color: #a9a9a9;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #fff;
+    outline: none;
+    -webkit-transition: .3s linear;
+    transition: .3s linear
+}
+.sew-by-callback__label {
+margin: 0;
+}
+.sew-by-callback__button {
+    width: 38%;
+    font: 500 14px/18px Montserrat,Arial,sans-serif;
+    color: #fff;
+    background: #951BC4;
+    border-radius: 4px;
+    border: none;
+}
+.sew-by-order__button:active,.sew-by-order__button:focus,.sew-by-order__button:hover {
+    background: #181918
+}
+
+.sew-by-order .attributes__list span {
+    margin-bottom: 5px
+}
+
+.sew-by-order .attributes__item {
+    margin-right: 12px
+}
+
+@media (min-width: 992px) {
+    .sew-by-order__warning {
+        position:absolute;
+        left: 60px;
+        top: -32px;
+        margin: 0;
+        padding: 20px 35px;
+        text-transform: lowercase;
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.1)
+    }
+
+    .sew-by-order__warning:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: -2em;
+        left: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1em solid #000;
+        border-color: transparent transparent #fff #fff;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-box-shadow: -2px 3px 3px 0 rgba(0,0,0,.1);
+        box-shadow: -2px 3px 3px 0 rgba(0,0,0,.1)
+    }
+}
+
+@media (max-width: 991px) {
+    .sew-by-order {
+        padding:20px 15px
+    }
+
+    .sew-by-order__image {
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .sew-by-order__form,.sew-by-order__label--50 {
+        width: 100%
+    }
+}
+
+.btn-close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #fff url(../img/Close.svg) no-repeat 50%/contain
+}
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0
+}
+.product__callback {
+    background: #FBFAFA;
+    border-radius: 4px;
+    padding:28px 24px;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+.product__callback p{
+    /*font-family: 'Montserrat';*/
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*font-size: 18px;*/
+    /*line-height: 22px;*/
+    /*color: #202020;*/
+    /*margin-bottom: 12px;*/
+}
+.sew-by-callback__input, #phone_mobile {
+    background-image: url(../../img/flag.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 24px !important;
+    background-position-y: 15px !important;
+    padding-left: 60px !important;
+}
+
+.modal-check {
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    align-items: center;
+  }
+  .custom-checkbox>p {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+  .modal-check p, .modal-check a {
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.5px;
+  line-height: 16px;
+  display: contents;
+  color: #9A9A9A;
+  }
+  .modal-check a {
+    cursor: pointer;
+    text-decoration-line: underline;
+  }
+  .modal-check a:hover {
+    color: #951BC4;
+  }
+  
+  .custom-checkbox>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom-checkbox>p {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  /* ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð² label Ð¿ÑÐµÐ²Ð´Ð¾ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° before ÑÐ¾ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¼Ð¸ ÑÑ‚Ð¸Ð»ÑÐ¼Ð¸ */
+  .custom-checkbox>p::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #951BC4;
+  box-sizing: border-box;
+  border-radius: 4px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    cursor: pointer;
+  }
+  
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð¿Ñ€Ð¸ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¸Ð¸ ÐºÑƒÑ€ÑÐ¾Ñ€Ð° Ð½Ð° checkbox */
+  .custom-checkbox>input:not(:disabled):not(:checked)+p:hover::before {
+    border-color: #951bc49c;
+  }
+  
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¾Ð³Ð¾ Ñ‡ÐµÐºÐ±Ð¾ÐºÑÐ° (Ð¿Ñ€Ð¸ Ð½Ð°Ð¶Ð°Ñ‚Ð¸Ð¸ Ð½Ð° Ð½ÐµÐ³Ð¾) */
+  .custom-checkbox>input:not(:disabled):active+p::before {
+  
+    border-color: #951bc49c;
+  }
+  
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ‡ÐµÐºÐ±Ð¾ÐºÑÐ°, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ³Ð¾ÑÑ Ð² Ñ„Ð¾ÐºÑƒÑÐµ Ð¸ Ð½Ðµ Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ³Ð¾ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ checked */
+  .custom-checkbox>input:focus:not(:checked)+p::before {
+    border-color: #951bc49c;
+  }
+  
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ‡ÐµÐºÐ±Ð¾ÐºÑÐ°, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ³Ð¾ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ checked */
+  .custom-checkbox>input:checked+p::before {
+    border-color: #951BC4;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23951BC4' d='M9.1001 0.535905L3.50908 6.07334L0.899903 3.48917C0.693805 3.28505 0.360673 3.28505 0.154574 3.48917C-0.0515247 3.69329 -0.0515247 4.02323 0.154574 4.22736L3.13642 7.18062C3.2392 7.28242 3.37414 7.33358 3.50908 7.33358C3.64402 7.33358 3.77896 7.28242 3.88175 7.18062L9.84543 1.27409C10.0515 1.06997 10.0515 0.740028 9.84543 0.535905C9.63933 0.331782 9.3062 0.331782 9.1001 0.535905Z'/%3e%3c/svg%3e");
+  }
+  
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ‡ÐµÐºÐ±Ð¾ÐºÑÐ°, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ³Ð¾ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ disabled */
+  .custom-checkbox>input:disabled+p::before {
+    background-color: #e9ecef;
+  }
+  .owner-feedbacks__success {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.owner-feedbacks__success img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.owner-feedbacks__success .sew-by-order__heading {
+    margin-bottom: 20px;
+}
+.owner-feedbacks__success .sew-by-order__button {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 15px 37px;
+    cursor: pointer;
+}
+div#mod, #call-pop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+div#mod-bg, #mod-bg-call {
+    background: #202020;
+    opacity: 0.75;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+@media (max-width: 767px) {
+.sew-by-callback__input, #phone_mobile {
+    background-position-x: 12px !important;
+    background-position-y: 15px !important;
+    padding-left: 36px !important;
+    font-size: 12px;
+}
+.sew-by-callback__button {
+    width: 40%;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 16px;
+}
+.product__callback { 
+    padding: 15px 12px;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+}
+.product__callback p {
+    font-size: 16px;
+    line-height: 14px;}
+    .modal-check p, .modal-check a {
+        font-size: 11.5px;
+        line-height: 16px;
+    }
+    .sew-by-order__heading {
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .sew-by-callback__label {
+        width: 100%;
+    }
+    .sew-by-callback__button {
+        max-width:140px;
+    }
+    .product__callback {
+        padding: 18px 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.modal-check.error p, .modal-check.error a {
+    color: red !important;
+}

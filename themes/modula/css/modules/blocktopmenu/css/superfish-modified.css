@@ -1,0 +1,97 @@
+.sf-contener{float:left;max-width:100%;min-width:60%;width:unset}
+@media (min-width: 768px) AND (max-width: 991px) {
+.sf-contener{min-width:104%}
+}
+@media (max-width: 767px) {
+.sf-contener{float:unset}
+}
+.sf-menu,.sf-menu *{margin:0;padding:0;list-style:none}
+.sf-menu{position:relative;padding:0;max-width:770px;border-bottom:none;background:none}
+.sticky .sf-menu{max-width:1070px}
+@media (max-width: 1198px) {
+.sf-menu{max-width:840px}
+}
+@media (max-width: 767px) {
+.sf-menu{display:none}
+}
+.sf-menu ul{position:absolute;top:-999em;background:#fff}
+@media (max-width: 767px) {
+.sf-menu ul{position:relative}
+}
+.sf-menu ul li{width:100%}
+.sf-menu li:hover{visibility:inherit}
+.sf-menu > li{float:left;border-right:none;margin-bottom:0}
+@media (max-width: 767px) {
+.sf-menu > li{float:none;position:relative;border-right:none}
+.sf-menu > li span{position:absolute;right:13px;top:17px;width:20px;height:20px;z-index:2}
+.sf-menu > li span:after{font-family:"FontAwesome";content:"\f107";font-size:20px;cursor:pointer}
+.sf-menu > li span.active:after{content:"\f106"}
+}
+.sf-menu > li > a{font:500 15px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:0;color:#202020;display:block;padding:20px 6px 19.5px;border-left:1px solid #fff;border-right:1px solid #fff;border-top:1px solid #fff;border-bottom:none}
+.sf-menu > li.menu-client-page > a,.sf-menu > li.menu-bestsellers > a,.sf-menu > li.menu-news > a{display:none}
+.sticky .sf-menu > li.menu-client-page > a,.sticky .sf-menu > li.menu-bestsellers > a,.sticky .sf-menu > li.menu-news > a{display:block}
+@media (max-width: 767px) {
+.sf-menu > li.menu-client-page > a,.sf-menu > li.menu-bestsellers > a,.sf-menu > li.menu-news > a{display:block}
+}
+@media (min-width: 991px) and (max-width: 1198px) {
+.sf-menu > li > a{padding:20px 7px 19.5px}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.sf-menu > li > a{font:14px "'Montserrat'",sans-serif;padding:15px 11px}
+.sticky .sf-menu > li > a{padding:15px 6px}
+}
+.sf-menu > li.sfHover > a,.sf-menu > li > a:hover,.sf-menu > li.sfHoverForce > a{background:#efefef;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7;border-top:1px solid #e7e7e7;border-bottom:none;color:#202020}
+.sf-menu li ul li a{display:inline-block;position:relative;color:#202020;font:300 14px "'Montserrat'",sans-serif;line-height:18px;-webkit-transition:all 300ms linear 0;-moz-box-transition:all 300ms linear 0;-o-transition:all 300ms linear 0;-ms-transition:all 300ms linear 0;transition:all 300ms linear 0}
+.sf-menu li ul li a:hover{color:#941114}
+.sf-menu li ul{display:none;left:0;top:53px;z-index:99;padding:15px 0 10px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 1px rgba(0,0,0,0.1);box-shadow:0 1px 1px rgba(0,0,0,0.1)}
+.sf-menu li ul.submenu-container{background-color:#efefef;border:1px solid #e7e7e7;margin-top:7px}
+@media (min-width: 767px) and (max-width: 991px) {
+.sf-menu li ul.submenu-container{margin-top:-2px}
+}
+@media (max-width: 767px) {
+.sf-menu li ul{top:0}
+}
+.sf-menu li li ul{position:static;display:block!important;opacity:1!important;background:none;-webkit-box-shadow:rgba(0,0,0,0) 0 0 0;-moz-box-shadow:rgba(0,0,0,0) 0 0 0;box-shadow:rgba(0,0,0,0) 0 0 0}
+.sf-menu li li li ul{padding:0 0 0 20px;width:220px}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul{left:250px;top:0}
+ul.sf-menu li li:hover li ul,ul.sf-menu li li.sfHover li ul{top:-999em}
+ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul{left:250px;top:0}
+.sf-menu > li > ul{padding:20px;width:100%}
+.sf-menu > li > ul > li > a{text-transform:none;font:500 15px "'Montserrat'",sans-serif;color:#202020;-moz-transition:all .4s ease 0;-webkit-transition:all .4s ease 0;-o-transition:all .4s ease 0;-ms-transition:all .4s ease 0;transition:all .4s ease 0}
+@media (max-width: 768px) {
+.sf-menu > li > ul > li > a{width:100%;height:30px}
+}
+.sf-menu > li > ul > li > a:hover{color:#941114}
+.sf-menu > li > ul > li{float:left;width:auto;padding:5px 15px 5px 0}
+.sf-menu > li > ul > li.category-thumbnail{clear:both;float:none;margin-left:-10px;overflow:hidden;padding-right:0;width:100%!important}
+.sf-menu > li > ul > li.category-thumbnail > div{float:left;padding-left:10px;width:33.333%}
+.sf-menu > li > ul > li.category-thumbnail > div img{display:block;max-width:100%;border:1px solid #d6d4d4}
+@media (max-width: 767px) {
+.sf-menu > li > ul > li{width:100%}
+}
+@media (max-width: 479px) {
+.sf-menu > li > ul > li{width:100%}
+}
+@media (min-width: 768px) {
+.sf-menu > li > ul > li.first-in-line-lg{clear:left}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+.sf-menu > li > ul > li.first-in-line-xs{clear:left}
+}
+.sf-menu > li > ul > li#category-thumbnail{width:100%!important;float:none;clear:both;overflow:hidden;padding-right:0}
+.sf-menu > li > ul > li#category-thumbnail > div{float:left;padding-left:10px;width:33.333%}
+@media (max-width: 479px) {
+.sf-menu > li > ul > li#category-thumbnail > div{width:100%;padding-left:0;padding-top:10px;text-align:center}
+}
+.sf-menu > li > ul > li#category-thumbnail > div:first-child{padding-left:0}
+.sf-menu > li > ul > li#category-thumbnail > div img{max-width:100%;display:block}
+.cat-title{display:none}
+@media (max-width: 767px) {
+.cat-title{display:block;font:bold 16px "'Montserrat'",sans-serif;text-transform:uppercase;color:#494940;display:block;padding:15px 20px 15px 10px;border-left:1px solid #fff;border-right:1px solid #fff;border-top:1px solid #fff;border-bottom:none;background:#fff;position:relative;cursor:pointer}
+.cat-title:hover{background:#f5f5f5;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7;border-top:1px solid #e7e7e7;border-bottom:none;color:#1b1b1b}
+.cat-title:after{display:block;font-family:"FontAwesome";content:"\f0c9";position:absolute;right:15px;top:17px;font-size:20px;cursor:pointer}
+.cat-title.active:after{content:"\f068"}
+}
+.sf-menu li.sf-search{border:none}
+.sf-menu li.sf-search input{display:inline;padding:0 13px;height:30px;line-height:30px;background:#fff;margin:13px 10px 0 0;font-size:13px;color:#9c9b9b;border:1px solid #d6d4d4}

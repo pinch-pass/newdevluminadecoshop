@@ -1,0 +1,259 @@
+/**
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2018 PresTeamShop
+ * @license   see file: LICENSE.txt
+ */
+
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .worldpay_title,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .worldpay-submit-button {
+    display: none;
+}
+
+/*******************/
+
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer.box{
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: normal;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer .card-type-container{
+    padding: 0;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer .save-customer{
+    padding: 0;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer h3.pay-by-credit-card,
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer img.secure-icon,
+div#onepagecheckoutps #onepagecheckoutps_step_three .simplifyFormContainer .simplify-submit-button{
+    display: none !important;
+}
+
+/*******************/
+
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .wk_ps_stripe,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #wkSubmitBtn,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #wk-payment-form .col-sm-offset-4{
+    display: none;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .wk-stripe-form{
+    display: block !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .wk-stripe-form .panel-title{
+    font-size: 14px ! important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .wk-stripe-form .display-td > img{
+    margin-top: -20px;
+    width: 140px;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .wk-stripe-form .row{
+    clear: both;
+}
+
+/* support payplug */
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment {
+    display: block !important;
+    margin-top: 10px;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment .card-wrapper input{
+    margin: -26px 0 0 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment .card-wrapper label > img{
+    margin: 0 10px 0 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment .card-wrapper label > img,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment .card-wrapper label > .info-wrapper{
+    float: left;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #form_payplug_payment .ppOneClickStatus{
+    display: none;
+}
+/* END support payplug*/
+
+/* support baintree */
+div#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .page-heading,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit .page-subheading,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit_dropin .page-subheading,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit p,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit .braintree_submit,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit_dropin .dropin_submit,
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit ul{
+    display: none !important;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three #braintree_cc_submit .form-group{
+    margin-bottom: 4px;
+}
+/* END support baintree */
+
+/* support authorizedotnet - Presto-Changeo */
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #adn_payment .title_accept,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #adn_payment .accept_cards,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #adn_payment .cart_navigation{
+    display: none !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #adn_payment .form_row{
+    padding: 0 !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #adn_payment{
+    padding: 0 !important;
+    border: none !important;
+}
+/* END support authorizedotnet - Presto-Changeo */
+
+/* support authorizeaim - prestashop */
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2 > div,
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2 img,
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2 #asubmit,
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #click_authorizeaim{
+    display: none !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2{
+    display: block !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2 label{
+    margin: 0 !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three #authorizeaim_form #aut2 br {
+    display: block;
+    margin: 2px 0;
+}
+/* END support authorizeaim - prestashop */
+
+/* support npaypalpro - prestashop */
+#onepagecheckoutps #onepagecheckoutps_step_three .paypalpro_title{
+    font-size: 100% !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .col-md-6,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #paypalpro-payment-form input,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #paypalpro-payment-form p > span{
+    width: 100% !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .col-md-6 .payment_module{
+    padding: 8px !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .payment_module .paypalpro_title,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #paypalpro-payment-form .paypalpro-submit-button{
+    display: none !important;
+}
+/* END support npaypalpro - prestashop */
+
+/* support paypalplus - www.terracode.de - v1.6.40*/
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #pppContinueButton{
+    display: none !important;
+}
+/* END support npaypalpro - prestashop */
+
+/* support paytpv - v6.3.2*/
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv {
+    border: none;
+    padding: 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv .paytpv_merchant_pan{
+    padding: 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv li{
+    list-style-type: unset;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv ul{
+    margin: 0;
+    padding: 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv .clear{
+    margin: 0;
+    padding: 0;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv #storingStep,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv #btnforg,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv .clear,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html .paytpv img {
+    display: none !important;
+}
+/* END support npaypalpro - prestashop */
+
+/* support plationline - PlatiOnline.ro - v5.0.20160217 */
+#onepagecheckoutps #onepagecheckoutps_step_three #holder-select-rate-bt,
+#onepagecheckoutps #onepagecheckoutps_step_three #holder-select-rate-rzb,
+#onepagecheckoutps #onepagecheckoutps_step_three #holder-select-rate-alpha {
+    display: block !important;
+    background: none!important;
+    float: left!important;
+    padding: 0!important;
+    margin-top: 14px!important;
+    width: auto!important;
+}
+/* END support plationline - PlatiOnline.ro - v5.0.20160217 */
+
+/* support stripe_official - 202 ecommerce - v1.4.0 */
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form{
+    width: auto;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form .img-card {
+    margin-bottom: 14px;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form #visa,
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form #mastercard,
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form #amex,
+div#onepagecheckoutps #onepagecheckoutps_step_three h3.stripe_title,
+div#onepagecheckoutps #onepagecheckoutps_step_three .stripe-submit-button,
+div#onepagecheckoutps #onepagecheckoutps_step_three #stripe-payment-form > br {
+    display: none !important;
+}
+/* END stripe_official - 202 ecommerce - v1.4.0 */
+
+/* support firstdata - v1.2.9 */
+div#onepagecheckoutps #onepagecheckoutps_step_three #firstdata_form{
+    padding: 15px 15px 0;
+}
+div#onepagecheckoutps #onepagecheckoutps_step_three #firstdata_form #firstdata_submit,
+div#onepagecheckoutps #onepagecheckoutps_step_three .firstdata-logo{
+    display: none;
+}
+/* END firstdata - v1.2.9 */
+
+/* support stripepro - NTS - 4.1.1*/
+#onepagecheckoutps #payment_modal_stripepro .stripe_title{
+    display: none;
+}
+#onepagecheckoutps #payment_modal_stripepro div.cc_btc_img{
+    float: none;
+}
+#onepagecheckoutps #payment_modal_stripepro .stripe-payment-16{
+    text-align: center;
+}
+/* END support stripepro - NTS - 4.1.1*/
+
+/* support stripepayment - webkul - v1.0.0 */
+div#onepagecheckoutps #payment_modal_stripepayment #stripeform{
+    display: block !important;
+}
+/* END stripepayment - webkul - v1.0.0 */
+
+/* support monerisapi - ZH Media - 1.8.7*/
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi .monerisapi_title,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi #monerisapi-submit,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi .monerisapi-submit-button,
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi .monerisapi_cards {
+    display: none !important;
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi{
+    margin: 0;
+    padding: 10px
+}
+#onepagecheckoutps #onepagecheckoutps_step_three .payment_content_html #monerisapi_form{
+    margin-top: -25px;
+    margin-bottom: 0;
+}
+/* END support stripepro - NTS - 4.1.1*/
+
+/* support amzpayments - v.2.2.01 */
+#onepagecheckoutps #onepagecheckoutps_step_three #payWithAmazonListDiv img {
+    display: none;
+}
+/* END amzpayments - v.2.2.01 */

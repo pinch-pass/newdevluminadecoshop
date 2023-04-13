@@ -1,0 +1,338 @@
+/*
+* 2007-2014 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2014 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+#gear-right {
+	border-top: 1px solid #d6d4d4;
+	border-bottom: 1px solid #d6d4d4;
+	border-right: 1px solid #d6d4d4;
+	background: white;
+	display: block;
+	height: 50px;
+	left: 0px;
+	margin-left: -1px;
+	position: fixed;
+	top: 70px;
+	width: 50px;
+	z-index: 20000;
+	cursor: pointer;
+	
+	-moz-border-top-right-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -o-border-top-right-radius: 15px;
+    -ms-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+	
+	-moz-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    -ms-border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#gear-right .icon-2x {
+    font-size: 1.4em;
+	color: #1b1b1b;
+}
+
+#gear-right i {
+	display: block;
+	padding-top: 17px;
+	text-align: center;
+}
+
+#tool_customization{
+	position: fixed;
+	left: -215px;
+	top: 70px;
+	z-index: 15000; 
+	height: auto;
+	width: 215px;
+	border-top: 1px solid #d6d4d4;
+	border-bottom: 1px solid #d6d4d4;
+	border-right: 1px solid #d6d4d4;
+	background: white;
+
+}
+
+#tool_customization p{
+	padding: 15px 20px;
+	margin: 0;
+	color: #202020;
+	font: 500 15px "'Montserrat'",sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	
+}
+
+#tool_customization p span{
+	color: #8d8c8c;
+	font-size: 11px;
+}
+
+#tool_customization .list-tools{
+	background: #484848;
+	border: 1px solid #595959;
+	border-left: none;
+	border-right: none;
+	height: 50px;
+	display: none
+}
+
+#tool_customization .list-tools p{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#tool_customization .list-tools i{
+	font-size: 1.4em;
+	position: relative;
+	top: -4px;
+}
+
+#tool_customization #color-box{
+	margin: 0;
+	padding: 10px 0 0 19px;
+}
+
+#tool_customization #color-box li{
+	display: inline-block;
+	
+	height: 25px;
+	width: 25px;
+	margin: 0 8px 5px 0;
+}
+
+#tool_customization #color-box li:hover{
+	
+}
+
+#tool_customization #color-box .color-theme1{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-left-color: transparent !important;
+	border-top-color: transparent !important;
+	position: relative;
+	z-index: 1;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+	cursor: pointer;
+}
+
+#tool_customization #color-box .color-theme2{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: -26px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#tool_customization #color-box li.theme9{
+	display: none;
+}
+#
+tool_customization #color-box li{
+	cursor: pointer
+}
+
+#tool_customization #color-box .theme1 .color1{
+	border: 13px solid #1b1b1b;
+}
+
+#tool_customization #color-box .theme1 .color2{
+	background: #1b1b1b;
+}
+
+#tool_customization #color-box .theme2 .color1{
+	border: 13px solid #f44051;
+}
+
+#tool_customization #color-box .theme2 .color2{
+	background: #f44051;
+}
+
+#tool_customization #color-box .theme3 .color1{
+	border: 13px solid #f15323;
+}
+
+#tool_customization #color-box .theme3 .color2{
+	background: #f15323;
+}
+
+#tool_customization #color-box .theme4 .color1{
+	border: 13px solid #7bbe2a;
+}
+
+#tool_customization #color-box .theme4 .color2{
+	background: #7bbe2a;
+}
+
+#tool_customization #color-box .theme5 .color1{
+	border: 13px solid #299fec;
+}
+
+#tool_customization #color-box .theme5 .color2{
+	background: #299fec;
+}
+
+#tool_customization #color-box .theme6 .color1{
+	border: 13px solid #fcbd28;
+}
+
+#tool_customization #color-box .theme6 .color2{
+	background: #fcbd28;
+}
+
+#tool_customization #color-box .theme7 .color1{
+	border: 13px solid #e771bd;
+}
+#tool_customization #color-box .theme7 .color2{
+	background: #e771bd;
+}
+
+#tool_customization #color-box .theme8 .color1{
+	border: 13px solid #a55100;
+}
+
+#tool_customization #color-box .theme8 .color2{
+	background: #a55100;
+}
+
+#tool_customization #color-box .theme9 .color1{
+	border: 13px solid #74899c;
+}
+
+#tool_customization #color-box .theme9 .color2{
+	background: #74899c;
+}
+
+#tool_customization #font-box{
+	padding: 0 15px 15px;
+	display: none;
+}
+
+#tool_customization #font-box p{
+	padding: 0; 
+	margin: 15px 0 5px;
+	color: #9c9b9b;
+}
+#tool_customization #font-box .font-list{
+	height: 30px;
+	width: 180px;
+}
+
+#tool_customization .btn-tools{
+	background: white;
+
+	border-left: none;
+	border-right: none;
+	height: 75px;
+	padding: 15px;
+}
+
+#tool_customization .btn{
+	width: 47%;
+	padding: 8px 5px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+#tool_customization .btn-1{
+	background: white;
+	border: 1px solid #d6d4d4;
+	color: #000000;
+	letter-spacing: 0.8px;
+	margin: 0 4% 0 0;
+	font: 300 12px "'Montserrat'",sans-serif;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+	
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#tool_customization .btn-2{
+	background: white;
+	border: 1px solid #d6d4d4;
+	color: #000000;
+	letter-spacing: 0.8px;
+	font: 300 12px "'Montserrat'",sans-serif;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+	
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+
+}
+
+#tool_customization .btn-1:hover{
+	background: #f7f7f7;
+	border: 1px solid #d6d4d4;
+	color: #000000;
+}
+
+#tool_customization .btn-2:hover{
+	background: #f7f7f7;
+	border: 1px solid #d6d4d4;
+	color: #000000;
+}
+
+#tool_customization #block-advertisement{
+	padding: 20px;
+	display: none;
+}

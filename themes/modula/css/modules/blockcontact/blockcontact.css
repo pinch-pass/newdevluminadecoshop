@@ -1,0 +1,139 @@
+ 
+	
+
+
+  @media (max-width: 479px) {
+
+  } 
+
+  @media (max-width: 767px) {	
+  
+  } 
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	  
+	  .shop-phone{	  
+background:url('../../../img/magica/phone.png') no-repeat 10px 5px #F7F7F7;	
+border:1px solid #E7E7E7;
+padding:10px 15px;
+width:230px;
+position:absolute;
+right:0;
+top:70px;
+text-align: right;
+clear: both
+}
+  
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+	  
+	  .shop-phone{	  
+background:url('../../../img/magica/phone.png') no-repeat 10px 5px #F7F7F7;	
+border:1px solid #E7E7E7;
+padding:10px 15px;
+width:230px;
+position:absolute;
+right:0;
+top:70px;
+text-align: right;
+clear: both
+}
+	  
+  }
+  
+  @media (min-width: 1200px) {
+	  
+	  .shop-phone{	  
+background:url('../../../img/magica/phone.png') no-repeat 10px 5px #F7F7F7;	
+border:1px solid #E7E7E7;
+padding:10px 15px;
+width:230px;
+position:absolute;
+right:0;
+top:70px;
+text-align: right;
+clear: both
+}
+	  
+  }
+
+.shop-phone h1{
+margin:0px;
+padding:0px;
+font-weight:bold;
+font-size:20px;
+color:#6A6A6A !important;
+text-transform: none;
+
+
+line-height:20px;
+}
+.shop-phone-title {
+font-size:17px;
+margin:0px;
+color:#6A6A6A !important; 
+line-height:20px;
+padding:0px;
+
+text-transform: none;
+font-family: 'PT Sans',sans-serif;
+}
+ 
+ 
+  @media (max-width: 767px) {
+    .shop-phone {
+      display: none; } }
+  .shop-phone i {
+    font-size: 21px;
+    line-height: 21px;
+    color: white;
+    padding-right: 7px; }
+  .shop-phone strong {
+    margin:0px;
+padding:0px;
+font-weight:bold;
+font-size:20px;
+color:#6A6A6A !important;
+text-transform: none; }
+
+#contact-link {
+  float: right;
+  border-left: 1px solid #515151; }
+  @media (max-width: 479px) {
+    #contact-link {
+      width: 25%;
+      text-align: center; } }
+  #contact-link a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 8px 10px 11px 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      #contact-link a {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px; } }
+    #contact-link a:hover, #contact-link a.active {
+      background: #2b2b2b; }
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px; } }
+#contact_block .label {
+  display: none; }
+#contact_block .block_content {
+  color: #888888; }
+#contact_block p {
+  margin-bottom: 4px; }
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin-bottom: 6px; }
+  #contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px; }

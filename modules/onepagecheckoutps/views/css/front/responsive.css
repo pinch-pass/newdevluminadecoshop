@@ -1,0 +1,31 @@
+/**
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2018 PresTeamShop
+ * @license   see file: LICENSE.txt
+ */
+
+@media (max-width: 768px) {
+    div#onepagecheckoutps #onepagecheckoutps_step_two_container,
+    div#onepagecheckoutps #onepagecheckoutps_step_review{
+        margin-top: 15px !important;
+    }
+
+    div#onepagecheckoutps #onepagecheckoutps_step_review .cart_item > div {
+        margin-bottom: 0.5em;
+    }
+    .nopadding-xs {
+        padding: 0 !important;
+    }
+    div#onepagecheckoutps #onepagecheckoutps_step_review #order-detail-content .item_total{
+        height: auto;
+    }
+    div#onepagecheckoutps div#onepagecheckoutps_step_review .cart_quantity .cart_quantity_button {
+        text-align: left;
+    }
+}

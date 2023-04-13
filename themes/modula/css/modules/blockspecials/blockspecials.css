@@ -1,0 +1,66 @@
+/* Block specials */
+
+.product-box .price_display .price{
+	font-weight: 800;
+	color: #000;
+}
+
+.product-box .price_display div{
+	margin-top: 10px;
+}
+
+#special_block_right div.titlebordrtext1 { 
+
+    text-align: center;
+    width: 100%;		
+	
+}
+
+#special_block_right div.titleborderout1 { 
+
+	float: left;
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;	
+	
+} 
+
+#special_block_right div.titleborder1 { 
+
+	background: url("../../../img/modula/titleborder.png") repeat-x;
+    height: 10px;
+    margin-top: -57px;
+    position: relative;	
+	
+}
+
+#special_block_right h4.titleborderh4 {
+    /* background: #fff; */
+	border-bottom: none;
+	padding: 20px 0;
+    position: relative;
+    z-index: 99;
+	display: inline-block;
+	padding: 20px 20px 19px; 
+	font-size: 19px !important;
+	border: none;
+
+}
+@media(max-width: 767px){
+	#special_block_right .titlebordrtext1{
+		cursor: pointer;
+	}
+	#special_block_right .titlebordrtext1.active .titleborderh4::after{
+		content: " \f106";
+	}
+	#special_block_right h4.titleborderh4::after{
+		font-family: "FontAwesome";
+		content: " \f107";
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+
+.availability,.availabilitynot{width:8px;height:8px;display:inline-block}
+.availability:before{display:block;content:'';width:8px;height:8px;border-radius:50%;background:#3DA800}
+.availabilitynot:before{display:block;content:'';width:8px;height:8px;border-radius:50%;background:#fb0c0c}

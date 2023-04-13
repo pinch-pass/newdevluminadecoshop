@@ -1,0 +1,327 @@
+/* Block newsletterhome */
+
+#columns #newsletterhome_block_left .form-group {
+  margin-bottom: 0; 
+  }
+
+#columns #newsletterhome_block_left .form-group .form-control {
+    
+    display: inline-block;
+    margin-right: 6px; 
+	}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+#columns #newsletterhome_block_left .form-group .form-control {
+        margin-bottom: 10px;
+        margin-right: 0; 
+		} 
+		
+		}
+
+#columns #newsletterhome_block_left .success_inline, #columns #newsletterhome_block_left .warning_inline {
+  text-align: left;
+  padding: 1px 0 0 0;
+  margin-bottom: -19px; 
+  }
+
+#columns #newsletterhome_block_left .success_inline {
+  color: #418B19; 
+  }
+
+#columns #newsletterhome_block_left .warning_inline {
+  color: #f13340; 
+  }
+
+/* Block newsletterhome footer */
+
+#newsletterhome_block_left {
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+
+  border: 20px solid #E7E7E7;
+  padding: 25px 0 30px 0;
+  margin: 0 auto 30px auto; 
+  text-align: center;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; 
+
+  }
+  
+  
+  @media (max-width: 478px) {
+	  
+  #newsletterhome_block_left {
+  width: 94%;
+
+  }
+  #newsletterhome_block_left .form-group .form-control {
+  max-width: 250px;
+  }
+
+  #newsletterhome_block_left h4 {
+  font-size: 22px;
+  padding: 0 5px;
+  line-height: 22px;
+  }
+
+  } 
+
+  @media (min-width: 479px) and (max-width: 767px) {	
+  
+  #newsletterhome_block_left {
+  width: 95%;
+  }
+  #newsletterhome_block_left .form-group .form-control {
+  max-width: 350px;
+  }
+  #newsletterhome_block_left h4 {
+  font-size: 24px;
+  padding: 0;
+  line-height: 24px;
+  }
+  
+  } 
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	  
+  #newsletterhome_block_left {
+  width: 95%;
+  }
+	  
+  #newsletterhome_block_left .form-group .form-control {
+  max-width: 500px;
+  }
+  #newsletterhome_block_left h4 {
+  font-size: 24px;
+  padding: 0;
+  line-height: 24px;
+  }
+	  
+  
+  
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+	  
+  #newsletterhome_block_left {
+  width: 95%;
+  }
+  #newsletterhome_block_left .form-group .form-control {
+  max-width: 500px;
+  }
+  #newsletterhome_block_left h4 {
+  font-size: 24px;
+  padding: 0;
+  line-height: 24px;
+  }
+	  
+  }
+  
+  @media (min-width: 1200px) {
+
+  #newsletterhome_block_left {
+  width: 100%;
+  }
+  #newsletterhome_block_left .form-group .form-control {
+  max-width: 500px;
+  }
+  #newsletterhome_block_left h4 {
+  font-size: 24px;
+  padding: 0;
+  line-height: 24px;
+  }
+	  
+  }
+  
+  #newsletterhome_block_left:hover {
+
+  border: 20px solid #D4D4D4;
+
+  }
+
+
+
+#newsletterhome_block_left h4 {
+    background: none;
+	font-family: "Roboto",sans-serif;
+
+	color: #1b1b1b;
+    text-align: center;
+
+    text-transform: uppercase;
+	letter-spacing: 1.5px;
+
+    border: none; 
+	
+	}
+
+#newsletterhome_block_left h4:after {
+      display: none; 
+	  }
+
+#newsletterhome_block_left .block_content {
+    overflow: hidden;
+	clear: both;
+	 
+	}
+	
+#newsletterhome_block_left p.msg_news {
+    color: #494940;
+    font-size: 16px;
+	font-family: "'Montserrat'",sans-serif;
+    margin: 25px 0;
+	clear: both;
+	letter-spacing: 1px;
+	padding: 0 5px;
+}
+
+#newsletterhome_block_left .form-group {
+    margin: 0 auto; 
+	}
+
+#newsletterhome_block_left .form-group .form-control {
+      height: 45px;
+	  font-family: "'Montserrat'",sans-serif;
+      line-height: 30px;
+
+      background: transparent;
+      border: 1px solid #A4A4A4;
+      color: #A4A4A4;
+	  font-size: 16px;
+      text-align: center;
+      display: inline-block;
+	  clear: both;
+     
+	  }
+
+#newsletterhome_block_left .form-group .form-control:focus {
+        border: 1px solid #1b1b1b;
+		color: #1b1b1b; 
+		}
+
+#newsletterhome_block_left .form-group .button-small {
+     
+	  margin: 20px auto 0 auto;
+	  
+	  display: block;
+      border: 1px solid #1b1b1b;
+      background: transparent;
+      text-align: center;
+      color: #1b1b1b;
+      padding: 8px; 
+	  clear: both;
+	  font-weight: normal;
+	  letter-spacing: 0.5px;
+	  -moz-transition: all 0.5s ease 0s;
+      -webkit-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s; 
+}
+
+
+  @media (max-width: 478px) {
+	  
+	  #newsletterhome_block_left .form-group .button-small {
+
+	  width: 50%;
+
+}
+
+  } 
+
+  @media (min-width: 479px) and (max-width: 767px) {
+	  
+	  #newsletterhome_block_left .form-group .button-small {
+
+	  width: 40%;
+
+}
+  
+  } 
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	  
+	  #newsletterhome_block_left .form-group .button-small {
+
+	  width: 35%;
+
+}
+  
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+	  
+	  
+#newsletterhome_block_left .form-group .button-small {
+
+	  width: 25%;
+
+}
+	  
+  }
+  
+  @media (min-width: 1200px) {
+	  
+	 #newsletterhome_block_left .form-group .button-small {
+
+	  width: 20%;
+
+}
+	  
+  }
+	  
+#newsletterhome_block_left .form-group .button-small:hover {
+
+      border: 1px solid #1b1b1b;
+      background: #1b1b1b;
+      color: white;
+	  }
+
+#newsletterhome_block_left .form-group .button-small:after {
+        content: "\f178";
+        font-family: "FontAwesome";
+        font-size: 15px;
+        color: #1b1b1b;
+		}
+
+#newsletterhome_block_left .form-group .button-small:hover:after {
+        color: white !important; 
+		}
+
+#newsletterhome_block_left .form-group .button-small span {
+        font-family: "Roboto",sans-serif;
+        font-size: 15px;
+		text-transform: uppercase;
+		}
+		
+#newsletterhome_block_left .form-group .button-small span:hover {
+	    color: white;
+		}
+
+#newsletterhome_block_left .warning_inline {
+    display: block;
+    color: #f13340;
+    font-size: 13px;
+    line-height: 26px;
+    clear: both; 
+	}
+
+@media (min-width: 1200px) {
+
+#newsletterhome_block_left .warning_inline {
+        display: inline-block;
+        position: relative;
+        top: -35px;
+        margin-bottom: -35px;
+        left: 15px;
+        clear: none; 
+		} 
+		
+}
+

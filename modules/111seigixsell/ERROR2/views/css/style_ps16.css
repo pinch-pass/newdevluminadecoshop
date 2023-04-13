@@ -1,0 +1,105 @@
+.xsell .xsell-elements {
+  overflow: hidden;
+  margin: 0 -5px 15px;
+}
+.xsell.hpbutton h3.page-product-heading, .xsell.hprcolumn h3.page-product-heading {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.xsell.hpbutton .xsell-element, .xsell.hprcolumn .xsell-element {
+  padding: 5px;
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+  float: left;
+}
+.xsell.hpbutton .xsell-link, .xsell.hprcolumn .xsell-link {
+  line-height: 100%;
+  vertical-align: center;
+  overflow: hidden;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  float: left;
+  max-width: none;
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.xsell.hpbutton .xsell-link:hover, .xsell.hprcolumn .xsell-link:hover {
+  border-color: #9d9d9d;
+}
+.xsell.hpbutton .xsell-image, .xsell.hprcolumn .xsell-image {
+  max-height: 40px;
+  margin-right: 10px;
+}
+.xsell.hpbutton .xsell-name, .xsell.hprcolumn .xsell-name {
+  font-size: 0.8em;
+}
+.xsell.hpbutton.xsell-box .xsell-element, .xsell.hprcolumn.xsell-box .xsell-element {
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  float: left;
+}
+.xsell.hpbutton.xsell-box .xsell-element .xsell-image, .xsell.hprcolumn.xsell-box .xsell-element .xsell-image {
+  max-width: 100%;
+  width: auto;
+}
+.xsell.hpbutton h3.page-product-heading {
+  padding-left: 5px;
+}
+.xsell.hpbutton .xsell-elements {
+  padding: 0 5px;
+}
+.xsell.hpbutton .xsell-element {
+  width: auto;
+  max-width: none;
+}
+.xsell.hpfooter .xsell-element {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.xsell.hpfooter .xsell-link {
+  line-height: 100%;
+  overflow: hidden;
+  display: block;
+  border: 1px solid lightgray;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+}
+.xsell.hpfooter .xsell-link:hover {
+  border-color: #9d9d9d;
+}
+.xsell.hpfooter .xsell-image {
+  display: inline-block;
+  width: 80%;
+}
+.xsell.hpfooter .xsell-name {
+  margin-top: 10px;
+  font-size: 0.8em;
+  display: block;
+}
+.xsell.hpfooter.xsell-box .xsell-element {
+  width: 200px;
+  height: 200px;
+}
+.xsell.hpfooter.xsell-box .xsell-element .xsell-image {
+  width: 100%;
+}
+.xsell.hpfooter.xsell-textonly .xsell-element {
+  height: auto;
+  width: 25%;
+}
+.xsell.hpfooter.xsell-textonly .xsell-element .xsell-name {
+  margin: 0;
+}
+.xsell .xsell-elements-dropdown select {
+  margin: 20px 0;
+  max-width: 80%;
+}

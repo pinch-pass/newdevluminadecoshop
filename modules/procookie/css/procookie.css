@@ -1,0 +1,91 @@
+.procookie {
+    /*width: 100%;*/
+    /*font-weight: bold;*/
+    font-size: 14px;
+    background: #000000;
+    background-color: rgba(0,0,0,0.8);
+    color: #ffffff;
+    /*text-align: center;*/
+    z-index: 3000;
+    /*line-height: 2.5em;*/
+    /*padding: 5px 340px;*/
+    padding: 15px;
+    /*border: 1px solid #E4E4E4;*/
+    /*bottom: auto !important;*/
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 15%), 0 5px 15px -7px rgb(0 0 0 / 50%);
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+#product.content_only .procookie {
+    display: none !important;
+}
+
+.procookie span {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.procookie img {
+    height: 28px;
+}
+
+.procookie span a {
+    text-decoration: underline;
+}
+
+.procookie span a:hover {
+    color: #951bc4;
+}
+
+.procookie > a {
+    white-space: nowrap;
+    border: 1px solid #951BC4;
+    background: #951BC4;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 30px;
+    line-height: initial;
+}
+
+.procookie-close {
+    background: #dddddd;
+    color: #222222;
+}
+
+.procookie-more {
+    background: #dddddd;
+    color: #222222;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .procookie {
+        /*padding-left: 10px;*/
+        /*padding-right: 125px;*/
+        /*padding-bottom: 44px;*/
+    }
+}
+
+@media (max-width: 767px) {
+    .procookie {
+        /*font-size: 12px !important;*/
+        /*line-height: 1.5em;*/
+        /*padding-left: 10px;*/
+        /*padding-right: 90px;*/
+        /*font-weight: normal;*/
+        width: calc(100% - 2em);
+        bottom: 100px !important;
+        font-size: 11px !important;
+    }
+
+    .procookie a {
+        /*display: block;*/
+    }
+}

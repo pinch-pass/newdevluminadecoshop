@@ -1,0 +1,12 @@
+Sujet: Un avis a �t� mis � jour - {shop_name}
+
+Bonjour!
+
+L'avis {review_id} pour {product_name} a �t� mis � jour et vous pouvez le lire ci-dessous :
+
+Evaluation : {ratings} 
+Titre: {title}
+D�tail: {content}
+Avis ID: {review_id} 
+
+Votre module d'avis client DataKick

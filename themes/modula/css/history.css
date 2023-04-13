@@ -1,0 +1,74 @@
+
+/************************************************************
+				History Page Styles
+************************************************************/
+
+#block-order-detail .page-heading-on {
+    border-bottom: medium none;
+    color: #202020;
+    display: inline-block;
+    font: 500 20px "'Montserrat'",sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#order-detail-content table .return_quantity_buttons {
+  margin-top: 3px; 
+  }
+
+#order-detail-content table .return_quantity_buttons a {
+    display: none;
+    float: left; 
+	}
+
+#order-detail-content table .return_quantity_buttons a + a {
+      margin-left: 3px; 
+	  }
+
+#order-detail-content table .order_qte_input {
+  display: none;
+  width: 57px;
+  height: 27px;
+  line-height: 27px;
+  padding: 0;
+  text-align: center; 
+  }
+
+#order-detail-content table label {
+  font-weight: 300; 
+  }
+
+.table td.history_detail a + a {
+  margin-left: 14px; 
+  float: right;
+  }
+
+.table td.step-by-step-date {
+  width: 105px; 
+  }
+
+.table tfoot strong {
+  color: #333333; 
+  }
+
+.info-order i {
+  font-size: 20px; 
+  }
+
+.info-order i.icon-gift {
+    color: #f13340; 
+	}
+
+.info-order i.icon-repeat {
+    color: #55c65e; 
+	}
+
+#sendOrderMessage {
+  margin-bottom: 30px; 
+  }
+
+#sendOrderMessage select.form-control {
+    width: 263px; 
+	}

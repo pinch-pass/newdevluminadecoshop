@@ -1,0 +1,15 @@
+Sujet: Un avis a �t� supprim�
+ - {shop_name}
+
+Bonjour!
+
+Veuillez noter que l'avis {review_id} avec l'�valuation {ratings} pour {product_name} a �t� supprim� par l'auteur.
+
+Si vous souhaitez demand� pourquoi � l'auteur, voici les details:
+
+Email: {author_email}
+Nom {author_name}
+Le nom inscrit dans l'avis: {display_name}
+
+Votre module d'avis client DataKick
+

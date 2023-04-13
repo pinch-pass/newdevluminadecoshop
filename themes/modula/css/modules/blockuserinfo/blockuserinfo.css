@@ -1,0 +1,134 @@
+
+.header_user_info {
+    float: right;
+    }
+
+.header_user_info a {
+    /*color: #CCC;*/
+    color: #fff;
+	font: 300 14px ''Montserrat'',sans-serif;
+    display: block;
+    padding: 10.5px 2px 9px 0;
+    cursor: pointer;
+    line-height: 18px; 
+	}
+@media (max-width: 767px){
+	.header_user_info a {
+		padding: 15px 2px 9px 0;
+	}
+}
+.header_user_info > .logout:before  {
+    color: #CCC;
+    content: "\f08b";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    line-height: 15px;
+    padding-right: 5px;
+} 
+
+.header_user_info > .login:before {
+    color: #fff;
+    content: "\f090";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    line-height: 15px;
+    padding-right: 5px;
+}
+
+.header_user_info > .logout:hover::before,
+.header_user_info > .login:hover::before  {
+    color: white;
+} 
+
+
+	
+
+@media (max-width: 479px) {
+
+.header_user_info a {
+    font-size: 15px; 
+    } 
+}
+    
+
+.header_user_info a:hover, 
+.header_user_info a.active {
+    color: white;
+	background: none; 
+	}
+	
+
+
+
+.header_user_info_customer {
+    float: right;
+    }
+	
+  @media (max-width: 478px) {
+	  
+	.header_user_info_customer {
+    display: none;
+    }
+
+  } 
+
+  @media (min-width: 479px) and (max-width: 767px) {
+	  
+	.header_user_info_customer {
+    display: none;
+    }
+  
+  } 
+
+.header_user_info_customer a {
+    color: #fff;
+	font: 300 14px ''Montserrat'',sans-serif;
+    display: block;
+    padding: 10.5px 12px 9px 0;
+    cursor: pointer;
+    line-height: 18px; 
+	}
+	
+.header_user_info_customer > .logout:before  {
+    color: #d5b067;
+    content: "\f08b";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    line-height: 15px;
+    padding-right: 5px;
+} 
+
+.header_user_info_customer > .login:before {
+    color: #d5b067;
+    content: "\f090";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    line-height: 15px;
+    padding-right: 5px;
+}
+
+.header_user_info_customer > .logout:hover::before,
+.header_user_info_customer > .login:hover::before  {
+    color: white;
+} 
+
+
+	
+
+@media (max-width: 479px) {
+
+.header_user_info a {
+    font-size: 15px; 
+    } 
+}
+    
+
+.header_user_info_customer a:hover, 
+.header_user_info_customer a.active {
+    color: white;
+	background: none; 
+	}

@@ -1,0 +1,12 @@
+Assunto: Uma an�lise foi atualizada - {shop_name}
+
+Ol�!
+
+A an�lise {review_id} para {product_name} foi atualizada e agora tem este aspecto:
+
+Classifica��o: {ratings} 
+T�tulo: {title}
+Conte�do: {content}
+ID da an�lise: {review_id} 
+
+Your DataKick Review Module

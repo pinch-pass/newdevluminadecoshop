@@ -1,0 +1,93 @@
+
+#favoriteproducts_block_account .favoriteproduct {
+   position: relative;
+   margin: 30px 0 20px;
+   padding: 0;
+   border: none;
+
+   }
+
+#favoriteproducts_block_account .favoriteproduct a.product_img_link {
+    border: 1px solid #d6d4d4;
+    display: block;
+    float: left;
+    margin: 0 20px;
+    overflow: hidden;
+    position: relative; 
+	-moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+	}
+	
+#favoriteproducts_block_account .favoriteproduct a.product_img_link:hover {
+    -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+
+	}
+
+#favoriteproducts_block_account .favoriteproduct p.product_desc {
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0; 
+	}
+
+#favoriteproducts_block_account .favoriteproduct .remove {
+    position: absolute;
+    top: 3px;
+    right: 10px; 
+	font-size: 15px;
+	}
+
+#favoriteproducts_block_account .favoriteproduct .remove .icon {
+    cursor: pointer; 
+	}
+	
+#favoriteproducts_block_account .favoriteproduct .s_title_block {
+    font: 500 15px "'Montserrat'", sans serif;
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+ 
+	}
+	
+#favoriteproducts_block_account .favoriteproduct .product_desc {
+    font: 300 14px/18px "'Montserrat'", sans serif;
+	letter-spacing: 0.8px;
+ 
+	}
+
+/* lnk fiche produit */
+
+#usefull_link_block li#favoriteproducts_block_extra_add, 
+#usefull_link_block li#favoriteproducts_block_extra_remove, 
+#usefull_link_block li#favoriteproducts_block_extra_added, 
+#usefull_link_block li#favoriteproducts_block_extra_removed {
+    color: #202020;
+    display: block;
+    font: 300 14px/18px "'Montserrat'",sans serif;
+	letter-spacing: 0.8px;
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+   
+  }
+  
+#usefull_link_block li#favoriteproducts_block_extra_add:hover, 
+#usefull_link_block li#favoriteproducts_block_extra_remove:hover, 
+#usefull_link_block li#favoriteproducts_block_extra_added:hover, 
+#usefull_link_block li#favoriteproducts_block_extra_removed:hover {
+    color: #941114;
+
+  }
+
+#usefull_link_block li#favoriteproducts_block_extra_added {
+  display: none; 
+  }
+
+#usefull_link_block li#favoriteproducts_block_extra_removed {
+  display: none; 
+  }

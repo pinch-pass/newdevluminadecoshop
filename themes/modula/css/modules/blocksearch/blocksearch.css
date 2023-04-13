@@ -1,0 +1,216 @@
+/* block top search */
+
+
+@media (max-width: 450px) {#search_block_top {width: 74%;}}
+@media (max-width: 390px) {#search_block_top {width: 70%;}}
+@media (min-width: 456px) {#search_block_top {width: 160px;}}
+@media (min-width: 510px) {#search_block_top {width: 210px;}}
+@media (min-width: 560px) {#search_block_top {width: 260px;}}
+@media (min-width: 610px) {#search_block_top {width: 310px;}}
+@media (min-width: 650px and max-width: 767px)  {#search_block_top {width: 320px;}}
+@media (min-width: 767px)  {#search_block_top {width: unset;}}
+@media (max-width: 767px) {
+	  
+#search_block_top {
+	position: relative;
+	padding: 10px 0 0 15px;
+	color:#888888;
+	float: left;
+    overflow:hidden;
+	height: 50px;
+}	
+  
+} 
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	  
+#search_block_top {
+	position: relative;
+	padding: 5px 0 5px 10px;
+	color:#888888;
+	float: right;
+    overflow:hidden;
+}
+  
+}
+  
+@media (min-width: 992px) and (max-width: 1200px) {
+	  
+#search_block_top {
+	position: relative;
+	padding: 3px 0 3px 10px;
+	color:#888888;
+	float: right;
+    overflow:hidden;
+	margin-right: -10px;
+}
+   
+}
+  
+@media (min-width: 1201px) {
+	  
+#search_block_top {
+	position: relative;
+	padding: 3px 0 3px 20px;
+	color:#888888;
+	float: right;
+    overflow:hidden;
+}
+   
+}
+
+#search_block_top p {
+	padding:0px; 
+	margin:0px;
+	}
+	
+#search_block_top #search_query_top {
+	background:#F7F7F7;
+	display:inline-block;
+	border:1px solid #E7E7E7;
+	font: 300 15px "'Montserrat'",sans-serif;
+	float:left;
+	height:20px;
+	line-height:24px;
+	color:#000;
+	vertical-align:middle;
+	outline:none!important;
+	box-shadow: none;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+	box-sizing: content-box;
+}
+
+
+  
+@media (max-width: 479px) {
+
+} 
+
+@media (max-width: 767px) {	
+  
+#search_block_top #search_query_top {
+	height:26px;
+	width:97.5%;
+	padding:none;
+
+
+}
+  
+} 
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	  
+#search_block_top #search_query_top {
+
+	width:220px;
+	padding: 5px 43px 6px 15px;
+
+}
+  
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+	  
+#search_block_top #search_query_top {
+
+	width:200px;
+	padding: 5px 43px 6px 15px;
+
+
+}
+	  
+}
+  
+@media (min-width: 1200px) {
+	  
+#search_block_top #search_query_top {
+
+	width: 220px;
+	padding: 5px 43px 6px 15px;
+
+
+}
+	  
+}
+
+@media (max-width: 479px) {
+
+} 
+#search_block_top .submit {
+	box-sizing: content-box;
+	height: 20px;
+	width:20px;
+	overflow: hidden;
+	background: #494940 url(img/search-btn.png) no-repeat;
+	background-origin: content-box;
+	padding: 0;
+	
+}
+@media (max-width: 767px) {	
+  
+#search_block_top .submit {
+	border:none;
+	color:#fff;
+	float:right;
+	position:relative;
+	right:15px;
+	top:-27px;
+
+	text-transform: uppercase;
+	
+	z-index:80;
+    }
+  
+} 
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	  
+#search_block_top .submit {
+	border:none;
+	color:#fff;
+	float:right;
+	position:relative;
+	right:30px;
+	top:7px;
+
+	text-transform: uppercase;
+	z-index:80;
+}
+  
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+	  
+#search_block_top .submit {
+	border:none;
+	color:#fff;
+	float:right;
+	position:relative;
+	right:35px;
+	top:7px;
+
+	text-transform: uppercase;
+	z-index:80;
+}
+	  
+}
+  
+@media (min-width: 1200px) {
+	  
+#search_block_top .submit {
+	border:none;
+	color:#fff;
+	float:right;
+	position:relative;
+	right:35px;
+	top:7px;
+	text-transform: uppercase;
+}
+
+
+	  
+}

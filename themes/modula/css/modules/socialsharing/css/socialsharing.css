@@ -1,0 +1,8 @@
+.socialsharing_product button {
+	margin-bottom: 3px;
+	
+	
+}
+body.in-iframe #short_description_block .socialsharing_product{
+	display:none;
+}

@@ -1,0 +1,79 @@
+/******************************************************************
+					Sitemap Page Styles
+*******************************************************************/
+#sitemap .sitemap_block .page-subheading,
+#listpage_content .page-subheading{
+    margin: 0 0 10px;
+	padding: 0;
+}
+
+#sitemap .sitemap_block li a:before {
+    content: "\f105";
+    display: inline-block;
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+#sitemap .sitemap_block li a {
+    color: #202020;
+	font: 300 14px/25px "'Montserrat'", sans-serif;
+	-moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+}
+
+#sitemap .sitemap_block li a:hover {
+    color: #941114;
+}
+
+#listpage_content div.tree_top {
+    padding: 5px 0 0 27px;
+}
+
+#listpage_content div.tree_top a:before {
+    content: "\f015";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: #333333;
+}
+
+#listpage_content div.tree_top a:hover:before {
+    color: #515151;
+}
+
+.categTree ul.tree {
+    padding-left: 24px;
+}
+
+.categTree ul.tree li {
+    margin: 0 0 0 21px;
+    padding: 5px 0 0 33px;
+    border-left: 1px solid #d6d4d4;
+    background: url(../img/sitemap-horizontal.png) no-repeat left 15px transparent;
+}
+
+.categTree ul.tree li a {
+    color: #202020;
+	font: 300 14px/18px "'Montserrat'", sans-serif;
+	-moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+}
+
+.categTree ul.tree li a:hover {
+    color: #941114;
+}
+
+.categTree ul.tree > li {
+    margin: 0 0 0 11px;
+}
+
+.categTree ul.tree li.last {
+    border: medium none;
+    background: url(../img/sitemap-last.png) no-repeat 0px -4px transparent;
+}

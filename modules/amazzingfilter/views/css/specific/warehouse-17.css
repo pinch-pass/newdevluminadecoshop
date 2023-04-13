@@ -1,0 +1,52 @@
+.af-checkbox-label,
+.af-radio-label {
+	padding-left: 18px;
+	position: relative;
+}
+.af.checkbox,
+.af.radio {
+	display: none;
+}
+.active > .af-checkbox-label:before,
+.active > .af-radio-label:before {
+	font-family: FontAwesome;
+	content: '\f00c';
+	color: #555;
+	z-index: 1;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+	font-size: 10px;
+	line-height: 10px;
+	animation: checkbox-bounce .3s cubic-bezier(.7,0,.3,1);
+ }
+.active > .af-radio-label:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	display: block;
+	background: #555;
+	top: 5px;
+	left: 6px;
+}
+.af-checkbox-label:after,
+.af-radio-label:after  {
+	content: '';
+ 	width: 16px;
+ 	height: 16px;
+ 	left: 2px;
+ 	top: 1px;
+ 	position: absolute;
+ 	border: 1px solid #DDD;
+ 	box-shadow: inset 0 1px 1px rgba(0,0,0,.09);
+ 	background: #FFF;
+}
+.af-radio-label:after {
+	border-radius: 100%;
+}
+/* customer filters */
+.af_filter .customer-filter-label {
+	padding-left: 6px;
+}
+/* since 2.8.3 */

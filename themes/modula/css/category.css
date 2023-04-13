@@ -1,0 +1,231 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+
+
+.content_scene_cat,
+.content_scene_cat_bg {
+  display: none;
+  color: white;
+  line-height: 19px;
+  margin: 0 0 26px 0; 
+  }
+
+.content_scene_cat .content_scene_cat_bg,
+.content_scene_cat_bg .cat_desc {
+    padding: 0;
+    background-color: transparent !important; 
+	display: inline-block
+	}
+	
+.content_scene_cat_bg .rte {
+
+	font: 500 15px 'Montserrat', sans-serif;
+	letter-spacing: 0.5px;
+	color: smokewhite;
+}
+
+@media (max-width: 1199px) {
+
+.content_scene_cat .content_scene_cat_bg {
+        padding: 10px 10px 10px 15px;
+		float: left; 
+		} 
+		
+		}
+
+.content_scene_cat span.category-name,
+.content_scene_cat_bg .category-name {
+    font: 500 35px 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 0 10px 0; 
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: inline-block;
+	}
+	
+.content_scene_cat_bg .lnk_more {
+    line-height: 18px;
+  color: whitesmoke;
+  font: 500 15px 'Montserrat', sans-serif;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  padding: 5px 15px; 
+  margin: 10px 0 0;
+  display: inline-block;
+	}
+	
+.content_scene_cat_bg .lnk_more:hover {
+   background: white;
+  border: 1px solid white;
+  color: #1b1b1b; 
+	}
+	
+
+
+@media (max-width: 1199px) {
+
+.content_scene_cat span.category-name {
+        font-size: 25px;
+        line-height: 30px; 
+		} 
+		
+		}
+
+.content_scene_cat p {
+    margin-bottom: 0; 
+	}
+
+.content_scene_cat a {
+    color: white; 
+	}
+
+.content_scene_cat a:hover {
+      text-decoration: underline; 
+	  }
+
+.content_scene_cat .content_scene {
+    color: #777777; 
+	}
+
+.content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; 
+	  }
+
+.content_scene_cat .content_scene .cat_desc a {
+        color: #777777; 
+		}
+
+.content_scene_cat .content_scene .cat_desc a:hover {
+          color: #515151; 
+		  }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+    margin: 0;
+	border-bottom: none;
+	padding: 0;
+  
+  }
+
+#subcategories p.subcategory-heading {
+
+    color: #202020 !important;
+    font: 500 19px/19px 'Montserrat', sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0 0 22px;
+    padding: 20px 0;
+    text-align: left;
+    text-transform: uppercase;
+	}
+
+#subcategories ul {
+    margin: 0; 
+
+	}
+
+#subcategories ul li {
+      float: left;
+      width: 130px;
+      margin: 0 20px 0 0;
+      text-align: center;
+	  }
+#subcategories ul li:last-of-type {
+      margin: 0;
+	  }
+
+#subcategories ul li .subcategory-image {
+        padding: 0 0 8px 0; 
+		}
+
+#subcategories ul li .subcategory-image a {
+          display: inline-block;
+          border: 1px solid #d6d4d4; 
+		  }
+
+#subcategories ul li .subcategory-image a img {
+            max-width: 100%;
+            vertical-align: top; 
+			}
+
+#subcategories ul li .subcategory-name {
+        font: 500 14px/18px 'Montserrat', sans-serif;
+        color: #202020;
+        text-transform: none;
+		-moz-transition: all 0.4s ease 0s;
+        -webkit-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+		}
+#category.category-2 #subcategories ul li .subcategory-name{
+ height: 35px;
+display: inline-block;
+}
+#subcategories ul li .subcategory-name:hover {
+          color: #941114; 
+		  }
+
+#subcategories ul li .cat_desc {
+        display: none; 
+		}
+
+#subcategories ul li:hover .subcategory-image a {
+        -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+        -o-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+		
+	    -moz-transition: all 0.4s ease 0s;
+        -webkit-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;  
+		}
+		
+#subcategories h4.titleborderh4 {background: #ffffff;border-bottom: none;position: relative;z-index: 99;display: inline-block;padding: 20px 25px 19px;font: 500 19px/19px 'Montserrat', sans-serif;letter-spacing: 0.8px;color: #202020;}
+
+#subcategories div.titleborder2 { 
+
+	background: url("../img/modula/titleborder.png") repeat-x;
+    height: 10px;
+    margin-top: -51px;
+    position: relative;	
+	
+}
+
+#subcategories div.titlebordrtext1 {
+    margin: 11px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rte a.tag{
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: #202020;
+    border: 2px solid #d3d3d3;
+    -moz-transition: all .4s ease 0s;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.rte a.tag:hover{
+    background: #202020;
+    border: 2px solid #202020;
+    color: #fff;
+}

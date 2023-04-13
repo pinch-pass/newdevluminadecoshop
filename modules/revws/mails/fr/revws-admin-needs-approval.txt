@@ -1,0 +1,12 @@
+Sujet: Un avis attend votre approbation
+ - {shop_name}
+
+Bonjour!
+
+Vous avez un nouvel avis pour {product_name}. 
+
+L'avis{review_id} avec comme evaluation {ratings} attend votre approbation avant d'�tre publi�. 
+
+Depechez-vous d'aller sur votre site et v�rifiez-le !
+
+Votre module d'avis client DataKick

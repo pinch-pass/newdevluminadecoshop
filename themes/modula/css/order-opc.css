@@ -1,0 +1,136 @@
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+
+#order-opc {
+  line-height: 20px; 
+  }
+
+#order-opc .box {
+  background: white;
+  color: #202020;
+  font: 300 14px/20px "'Montserrat'", sans-serif;
+  letter-spacing: 0.8px;
+  border: 1px solid #d6d4d4;
+  padding: 25px;
+  margin: 0 0 30px 0;
+  position: relative;
+  z-index: 10; 
+  
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  }
+
+#order-opc .cart_navigation {
+    margin-bottom: 25px; 
+	}
+
+#order-opc .page-heading.step-num {
+    position: relative;
+    padding-left: 45px;
+    overflow: visible; 
+	}
+
+#order-opc .page-heading.step-num span {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 51px;
+      font-style: italic;
+      color: #333333;
+      position: absolute;
+      left: 10px;
+      top: -14px; 
+	  }
+
+#order-opc .form-group {
+    margin-bottom: 2px; 
+	}
+
+#order-opc .form-group .form-control {
+      /* max-width: 50%;  */
+	  }
+#uniform-days,
+#uniform-months,
+#uniform-years{
+	width: 150px;
+	padding-right: 15px;
+}
+#order-opc .lost_password {
+    display: inline-block;
+    color: #494940;
+    text-decoration: none; 
+    font-weight: bold;
+    margin: 5px 0 14px; 
+	}
+
+#order-opc .lost_password:hover {
+      color: #1b1b1b; 
+	  }
+
+#order-opc .title_block {
+    font: 500 20px "Roboto",sans-serif;
+	letter-spacing: 0.5px;
+    color: #1b1b1b ;
+    padding: 20px 0; 
+	}
+
+#order-opc .opc-button {
+    padding: 11px 0 0 0; 
+	}
+
+#order-opc ul.bullet {
+    line-height: 22px;
+    margin-bottom: 5px;
+	font: 500 15px "'Montserrat'",sans-serif;
+	letter-spacing: 0.2px;
+    color: #6a6a6a ; 
+	}
+
+#order-opc .date-select {
+    padding-bottom: 10px; 
+	}
+
+#order-opc .opc-add-save {
+    border-top: 1px solid #d6d4d4;
+    margin-top: 20px;
+    padding-top: 20px; 
+	}
+
+#order-opc #message {
+    margin-bottom: 35px; 
+	}
+
+#order-opc #opc_payment_methods {
+    margin-bottom: 30px; 
+	}
+
+#order-opc #opc_payment_methods p.warning {
+      color: #1b1b1b;
+      font-weight: 700; 
+	  background: #f2dede;
+	  border 1px solid: #ebccd1;
+	  font: 600 15px "'Montserrat'",sans serif;
+      padding: 15px;
+	  letter-spacing: 0.2px;
+	  }
+
+#order-opc #opc_account {
+    margin-bottom: 30px; 
+	}
+
+#order-opc .address_delivery.select {
+    margin-bottom: 15px; 
+	}
+
+#order-opc #address_invoice_form.form-group {
+    margin-bottom: 30px; 
+	}
+
+#new_account_form .id_state,
+#new_account_form .dni,
+#new_account_form .postcode {
+  display: none; 
+  }

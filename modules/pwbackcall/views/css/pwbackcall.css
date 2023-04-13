@@ -1,0 +1,269 @@
+#call-pop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+#mod-bg-call {
+    background: #202020;
+    opacity: 0.75;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.product__modal {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    max-width: 570px;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 5795;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+}
+.btn-close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #fff url(../images/Close.svg) no-repeat 50%/contain
+}
+.sew-by-order {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px
+}
+.sew-by-order__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #202020;
+}
+.sew-by-order__desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+}
+.sew-by-order__button {
+    width: 100%;
+    max-width: 146px;
+    padding: 15px 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    background: #951BC4;
+    border-radius: 4px;
+    -webkit-transition: .3s linear;
+    transition: .3s linear
+}
+.sew-by-order__button:active,.sew-by-order__button:focus,.sew-by-order__button:hover {
+    background: #181918
+}
+.owner-feedbacks__success {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.owner-feedbacks__success img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.owner-feedbacks__success .sew-by-order__heading {
+    margin-bottom: 20px;
+}
+.owner-feedbacks__success .sew-by-order__button {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 15px 37px;
+    cursor: pointer;
+}
+
+.sew-by-order__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+.sew-by-order__label {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+.sew-by-order__label span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+    padding-bottom: 8px;
+}
+.sew-by-order__label span span {
+    color: red;
+
+}
+.sew-by-order__label--100 {
+    width: 100%
+}
+
+.sew-by-order__input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 40px 0 20px!important;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9A9A9A;
+    border: 1px solid #E4E4E4;
+    border-radius: 4px;
+    background: #fff;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+.sew-by-order__input.success {
+    background: #fff url(../images/check-mark.svg) no-repeat calc(100% - 10px) 50%/11px
+}
+.sew-by-order__input.error {
+    border-color: #e13e3e;
+    background: #fff url(../img/close-cross.svg) no-repeat calc(100% - 10px) 50%/11px
+}
+.sew-by-order__input.error:focus {
+    border-color: #e13e3e
+}
+.sew-by-order__input:focus {
+    border-color: #a9a9a9
+}
+
+.modal-check {
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    align-items: center;
+}
+.modal-check p, .modal-check a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.5px;
+    line-height: 16px;
+    display: contents;
+    color: #9A9A9A;
+}
+
+.modal-check.error p, .modal-check.error a {
+    color: red;
+}
+
+.modal-check a {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.modal-check a:hover {
+    color: #951BC4;
+}
+
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0
+}
+
+@media (max-width: 1199px) {
+    .product__modal {
+        max-width: calc(100% - 30px)
+    }
+    .sew-by-order__form {
+        width: 100%
+    }
+}
+
+@media (max-width: 991px) {
+    .sew-by-order {
+        padding: 20px 15px
+    }
+}
+@media (max-width: 767px) {
+    .sew-by-order__heading {
+        font-size: 22px;
+    }
+    .modal-check p, .modal-check a {
+        font-size: 11.5px;
+        line-height: 16px;
+    }
+}
+
+.modal-check div.checker {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0px 10px 0 0;
+}
+
+.modal-check div.checker span {
+    position: relative;
+    overflow: unset;
+    width: 20px;
+    height: 20px;
+    background-image: url(sprite.png);
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    zoom: 1;
+    text-align: center;
+    background-position: 0px -452px;
+}
+
+.modal-check div.checker span.checked {
+    background-position: -20px -452px;
+}
+
+.modal-check div.checker span input {
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+<li><a href="#idTabRichSnippets" class="idTabHrefShort">{l s='Summary' mod='psrichsnippets'}</a></li>

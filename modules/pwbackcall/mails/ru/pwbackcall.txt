@@ -1,0 +1,13 @@
+[{shop_url}]
+
+Обратный звонок
+
+Информация:
++ Имя: {name}
++ Телефон: {phone}
+
+Форма была отправлена со страницы:
+[{URL}]
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]

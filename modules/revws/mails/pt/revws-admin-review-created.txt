@@ -1,0 +1,15 @@
+Assunto: Voc� tem uma nova an�lise - {shop_name}
+
+Ol�!
+
+Voc� tem uma nova an�lise!
+
+Aqui est�o os detalhes:
+
+Produto: {product_name}
+Classifica��o: {ratings} 
+T�tulo: {title}
+Conte�do: {content}
+ID da an�lise: {review_id} 
+
+Your DataKick Review Module

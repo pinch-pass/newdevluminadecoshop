@@ -1,0 +1,12 @@
+Subject: A review needs approval
+ - {shop_name}
+
+Witaj!
+
+Masz now� opini� dotycz�c� {product_name}. 
+
+Opinia {review_id} z ocen� {ratings} oczekuje na zatwierdzenie. 
+
+Pospiesz si�!
+
+Tw�j DataKick modu� opinii.

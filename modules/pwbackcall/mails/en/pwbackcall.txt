@@ -1,0 +1,14 @@
+[{shop_url}]
+
+Позвоните: {phone}
+
+Дополнительная информация:
++ Имя: {name}
++ E-mail: {email}
++ Комментарий: {comment}
+
+Форма была отправлена со страницы:
+[{URL}]
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]

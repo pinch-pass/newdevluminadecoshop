@@ -1,0 +1,12 @@
+Assunto: Uma an�lise necessita de aprova��o
+ - {shop_name}
+
+Ol�!
+
+Voc� tem uma an�lise para {product_name}. 
+
+A an�lise {review_id} com a classifica��o {ratings} est� agora a necessitar da sua aprova��o antes de ser publicada.
+
+D� um salto ao seu site e verifique a an�lise!
+
+O seu m�dulo de An�lises DataKick

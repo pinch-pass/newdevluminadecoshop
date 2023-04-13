@@ -1,0 +1,13 @@
+{*
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2018 PresTeamShop
+ * @license   see file: LICENSE.txt
+*}
+
+{$HOOK_PAYMENT_METHOD|escape:'htmlall':'UTF-8':false:true}

@@ -1,0 +1,69 @@
+
+#my-account .addresses-lists {
+  margin: 30px 0; 
+  }
+
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  padding-bottom: 10px; 
+  }
+
+#my-account ul.myaccount-link-list li a {
+    display: block;
+    overflow: hidden;
+    font: 500 15px 'Montserrat', sans-serif;
+    color: #202020;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid #d6d4d4;
+	background: white;
+	letter-spacing: 0.8px;
+	
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+	
+	-moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+
+	}
+	
+#my-account ul.myaccount-link-list li a:hover {
+      filter: none;
+      
+      -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+      -o-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+      -ms-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+	  
+	  color: #941114;
+	  }
+
+
+
+
+#my-account ul.myaccount-link-list li a span {
+      display: block;
+      padding: 13px 15px 15px 20px;
+      overflow: hidden;
+      border: none;
+	  -moz-transition: all 0.4s ease 0s;
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      -ms-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; 
+
+	  }
+	  
+#my-account ul.myaccount-link-list li a span:hover {
+      color: #941114;
+
+	  }
+

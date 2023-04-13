@@ -1,0 +1,23 @@
+/* Block Viewed Products */
+#viewed-products_block_left li.last_item {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none; }
+#similiar_products,
+#blockviewed_box{
+	text-align: center;
+	padding: 0;
+	width: 100%;
+}
+#similiar_products li,
+#blockviewed_box li{
+	margin-right: 17px;
+}
+#similiar_products li:last-child,
+#blockviewed_box li:last-child{
+	margin-right: 0;
+}
+#similiar_products li h5,
+#blockviewed_box li h5{
+	padding: 0 15px;
+}

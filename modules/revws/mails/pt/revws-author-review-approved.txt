@@ -1,0 +1,21 @@
+Assunto: A sua an�lise foi aprovada
+ - {shop_name}
+
+Ol�!
+
+Muito obrigado pela sua an�lise! 
+
+Acabou de ser aprovada. Estamos muito gratos pelo tempo que dedicou � an�lise.
+
+Como lembrete, esta foi a sua an�lise:
+
+Produto: {product_name}
+Classifica��o: {ratings} 
+T�tulo: {title}
+Conte�do: {content}
+O nome disponibilizado{display_name}
+
+Mais uma vez, muito obrigado! Ficamos muito grataos pela an�lise. 
+{shop_name}
+
+

@@ -1,0 +1,15 @@
+Assunto: Uma an�lise foi eliminada
+ - {shop_name}
+
+Ol�!
+
+Este email serve para avis�-lo que a an�lise {review_id} com classifica��o {ratings} para {product_name} foi eliminada pelo seu autor.
+
+Caso queira perguntar o porqu�, aqui ficam os detalhes:
+
+Email: {author_email}
+Nome: {author_name}
+Nome na an�lise: {display_name}
+
+Your DataKick Review Module
+
